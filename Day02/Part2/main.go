@@ -17,7 +17,7 @@ const (
 	Lost     = 6
 )
 
-// Coorisponding to the const/enums above
+// Corresponding to the const/enums above
 var Points = [7]int {
 	-1,  // Unknown/default
 	1,   // Shape Rock
