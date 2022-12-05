@@ -14,7 +14,7 @@ const TEST_INPUT_FILE string = "test_data/sample_input.txt"
 
 func Test_getOverlapWorkordersCount_sampleInput(t *testing.T) {
 	input := getInput(TEST_INPUT_FILE)
-	expected := 2
+	expected := 4
 
 	output := getOverlapWorkordersCount(input)
 
