@@ -11,7 +11,7 @@ func main () {
 	//inputFile := "test_data/sample_input.txt"
 
 	input := getInput(inputFile)
-	marker, index := getMarker(input, 4)
+	marker, index := getMarker(input, 14)
 
 	fmt.Println(marker)
 	fmt.Println(index + len(marker))
