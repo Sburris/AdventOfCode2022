@@ -20,3 +20,16 @@ const TEST_INPUT_FILE string = "test_data/sample_input.txt"
 
 // 	assert.Equal(t, expected, output, "should match")
 // }
+
+/// ---------------------------------------------------------------------------
+///   getInput
+/// ---------------------------------------------------------------------------
+
+func Test_getOverlapWorkordersCount_sampleInput(t *testing.T) {
+	input := TEST_INPUT_FILE
+	expected := []string{}
+
+	output := getInput(input)
+
+	assert.Equal(t, expected, output, "should match")
+}
